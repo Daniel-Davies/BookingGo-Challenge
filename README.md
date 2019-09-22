@@ -18,7 +18,12 @@ Then, install dependancies by:
 - Tests for some of the fundemental routines in the solution are provided in tests.js. I didn't want to overengineer, and so I didn't use a mocking framework for API calls/ to mock the fetch function, and instead focussed on testing the main routines that consume API input, so that you may get an idea of how I test my solutions.
 - I assumed part 2 would provide a wrapper for the main section of part 1, regarding returning the lowest cost options and corresponding driver for each vehicle type, and would not need a specific endpoint and routine for Dave such as the console application (since this is already given by the endpoints in the exercise).
 
-## Part 1
+## Code locations
+
+- Part 1, or Bullet point one, aka, Dave's raw data, will be found in solution.js under method "daveOnly". Additionally as requested, sorting by price and console output happens in console.js
+- Part 2, or bullet points 2 and 3, are found in solution.js under method "callable", where both aggregation across multiple drivers takes place, as well as filtering on passenger number takes place
+
+## Running Part 1
 
 - Use format "node console {command line args}"
 - Command line arguments are assumed as: {lat,lon} {lat,lon} {Optional: task-option} {Optional: number of passengers}
@@ -28,7 +33,7 @@ Then, install dependancies by:
 - Another example would be: "node console 51.470020,-0.454295 51.00000,1.0000 1 4" which gets all vehicles valid for 4 passengers at lowest cost
 - Leaving out both task-option and passenger will print out both tasks, with default passengers = 1 
 
-## Part 2
+## Running Part 2
 
 - enter "node server"
 - You should see a message that says "Solution app listening on port 3000!"
