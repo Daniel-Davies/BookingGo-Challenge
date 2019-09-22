@@ -6,8 +6,11 @@
 To run the the solution, please ensure that you have:
 
 - NodeJS (i used v10.16.3)
-- node-fetch (npm i node-fetch)
-- express (npm i express)
+
+Then, install dependancies by:
+
+- Cloning this repo
+- Run "npm i" in your command line, which will install node-express and node-fetch
 
 ## Problem Assumptions and Scoping
 
