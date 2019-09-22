@@ -35,7 +35,7 @@ Then, install dependancies by:
 - visit http://localhost:3000/transport?pickup={l1,l2}&dropoff={l1,l2}&pass={passengers} [passengers is optional and defaults to 1]
 - e.g. try http://localhost:3000/transport?pickup=3.234234,4.234234&dropoff=3.32423,3.34234
 - You will see a JSON response corresponding to the lowest cost transport options associated to a driver (at default, passeneger = 1) 
-- Response format is in JSON: {success: <boolean>, data: {<vehicle>:[<price>, <driver>]}}
+- Response format is in JSON: {success: <boolean>, data: {vehicle:[price, driver]}}
 - Query the object held in "data" with a vehicle type, which will return the price, and the associated driver as [price, driver ID]
 
 ## Tests
