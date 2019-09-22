@@ -1,0 +1,24 @@
+{
+  "name": "bookinggo-challenge",
+  "version": "1.0.0",
+  "description": "To run the the solution, please ensure that you have:",
+  "main": "console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Davies/BookingGo-Challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Davies/BookingGo-Challenge/issues"
+  },
+  "homepage": "https://github.com/Daniel-Davies/BookingGo-Challenge#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
