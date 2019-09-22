@@ -21,7 +21,7 @@ Then, install dependancies by:
 ## Code locations
 
 - Part 1.1, or Bullet point one, aka, Dave's raw data, will be found in solution.js under method "daveOnly". Additionally as requested, sorting by price and console output happens in console.js
-- Part 1.2, or bullet points 2 and 3, are found in solution.js under method "callable", where both aggregation across multiple drivers takes place, as well as filtering on passenger number takes place
+- Part 1.2, or bullet points 2 and 3, are found in solution.js under method "callable", where both aggregation across multiple drivers  as well as filtering on passenger number takes place
 - Part 2, the server, is found in server.js
 
 ## Running Part 1
