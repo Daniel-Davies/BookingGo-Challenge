@@ -19,6 +19,6 @@
   "homepage": "https://github.com/Daniel-Davies/BookingGo-Challenge#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
